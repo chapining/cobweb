@@ -1,0 +1,44 @@
+import turtle as trl
+
+def draw_cobweb(length1, length2, length3, length4):
+    i = 0
+    while i != 8:
+        trl.forward(850)
+        trl.left(180)
+        trl.forward(850)
+        trl.right(135)
+        i += 1
+    i = 0
+    trl.forward(length1)
+    trl.left(112.5)
+
+    while i != 8:
+        trl.forward(267.88)
+        trl.left(45)
+        i += 1
+    i = 0
+
+    trl.left(67.5)
+    trl.forward(length1)
+    trl.left(180)
+
+    trl.forward(length2)
+    trl.left(112.5)
+    while i != 8:
+        trl.forward(153.07)
+        trl.left(45)
+        i += 1
+
+
+
+# настройка
+trl.goto(0, 0)
+trl.shape("turtle")
+trl.speed(7)
+length1 = 350
+length2 = 200
+length3 = 100
+length4 = 150
+
+draw_cobweb(length1, length2, length3, length4)
+trl.done()
