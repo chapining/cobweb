@@ -65,7 +65,7 @@ def draw_cobweb(length1, length2, length3, length4):
 trl.screensize(2000,2000)
 trl.goto(0, 0)
 trl.shape("turtle")
-trl.speed(15)
+trl.speed(5)
 length1 = 350
 length2 = 200
 length3 = 100
