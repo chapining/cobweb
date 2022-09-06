@@ -59,6 +59,9 @@ def draw_cobweb(length1, length2, length3, length4):
         i += 1
     i = 0
 
+    trl.left(112.5)
+    trl.forward(length1)
+
 
 
 # настройка
